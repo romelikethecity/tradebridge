@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gettradebridge.com/sitemap.xml

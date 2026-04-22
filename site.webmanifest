@@ -1,0 +1,16 @@
+{
+  "name": "TradeBridge",
+  "short_name": "TradeBridge",
+  "description": "Home Services Contractor Intelligence",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1B2A4A",
+  "icons": [
+    {
+      "src": "/assets/favicons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
