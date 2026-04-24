@@ -127,6 +127,31 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/css/styles.css?v=1">
 
+    <!-- Google Analytics 4 with Consent Mode v2 -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied'
+      });
+      var _tc = localStorage.getItem('tradebridge-consent');
+      if (_tc === 'granted') {
+        gtag('consent', 'update', {
+          'ad_storage': 'granted',
+          'analytics_storage': 'granted',
+          'ad_user_data': 'granted',
+          'ad_personalization': 'granted'
+        });
+      }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLF7EKXGMB"></script>
+    <script>
+      gtag('js', new Date());
+      gtag('config', 'G-CLF7EKXGMB');
+    </script>
 </head>
 <body>
     
@@ -309,7 +334,7 @@
                     <div class="data-card__footer">
                         <div class="data-card__verified">
                             <svg viewBox="0 0 14 14" fill="currentColor"><path d="M7 0a7 7 0 110 14A7 7 0 017 0zm3.1 4.4L6 8.5 3.9 6.4a.6.6 0 00-.8.8l2.5 2.5a.6.6 0 00.8 0l4.5-4.5a.6.6 0 00-.8-.8z"/></svg>
-                            Verified 2026-04-21
+                            Verified 2026-04-23
                         </div>
                         <span>License Active &middot; 8 employees</span>
                     </div>
